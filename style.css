@@ -428,19 +428,20 @@ section {
 /* ================= WHATSAPP BUTTON ================= */
 .whatsapp-btn {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background: transparent;
-    color: #25d366;
-    padding: 12px 20px;
-    border: 2px solid #25d366;
+    top: 100px;
+    right: 20px;
+    background: #25d366;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
     border-radius: 50px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-weight: 600;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     z-index: 2000;
     transform: translateX(200%);
     /* Start off-screen */
