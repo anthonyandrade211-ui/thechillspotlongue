@@ -13,6 +13,12 @@
     <link rel="icon" type="image/png" href="src/icon.png">
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph Image -->
+    <meta property="og:image" content="link%20pic.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Chill Spot | Premium Lounge">
+    <meta property="og:description" content="Experience luxury and comfort at The Chill Spot.">
 </head>
 
 <body>
@@ -340,7 +346,7 @@
         // WhatsApp Button Sliding Logic
         window.addEventListener('scroll', function () {
             const btn = document.getElementById('whatsappBtn');
-            if (window.scrollY > 300) {
+            if (window.scrollY > window.innerHeight) {
                 btn.classList.add('show');
             } else {
                 btn.classList.remove('show');
